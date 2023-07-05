@@ -18,4 +18,4 @@ const galleryList = galleryItems.map(({ preview, original, description }) => {
 
 gallery.innerHTML = galleryList;
 
-new SimpleLightbox ('gallery__link')
+new SimpleLightbox('.gallery__link')
